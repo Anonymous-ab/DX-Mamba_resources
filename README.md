@@ -17,6 +17,7 @@ cd DXMamba
 conda create -n DXMamba_env python=3.9
 conda activate DXMamba_env
 pip install -r requirements.txt
+'''
 
 <h3>Data Preparation and preprocessing</h3>
 
