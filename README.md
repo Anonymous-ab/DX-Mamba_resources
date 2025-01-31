@@ -43,4 +43,19 @@ python test.py --network MambaVision-L-1K --checkpoint ./models_ckpt/transformer
 <p align="center">Table 1: Results comparisons of different methods on the Dog-Xray dataset.</p>
 
 
+<p align="center">
+  <img src="Figures/Other datasets.png" alt=" Table 2: Results comparisons of different methods on the IU-Xray and MIMIC-CXR datasets.">
+</p>
+<p align="center">Table 2: Results comparisons of different methods on the IU-Xray and MIMIC-CXR datasets.</p>
 
+
+<p align="center">
+  <img src="Figures/predict_samples.png" alt=" Figure 1: Predicted report samples on image pairs 13059 and 11106 using the DX-Mamba model.">
+</p>
+<p align="center"> Figure 1: Predicted report samples on image pairs 13059 and 11106 using the DX-Mamba model.</p>
+
+
+<p align="center">
+  <img src="Figures/prediction.png" alt=" Figure 2: Predicted reports comparison on a sample image pair 12088 using DX-Mamba and R2Gen-Mamba models.">
+</p>
+<p align="center"> Figure 2: Predicted reports comparison on a sample image pair 12088 using DX-Mamba and R2Gen-Mamba models.</p>
