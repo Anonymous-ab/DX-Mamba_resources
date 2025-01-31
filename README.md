@@ -5,3 +5,6 @@
 <p align="center">Workflow of the proposed DX-Mamba model</p>
 
 
+<h2>Repository for codes of the DX-Mamba paper</h2>
+
+<p>This repository provides the coding implementation of the paper "DX-Mamba: Exploring State Space Model for Dog X-ray Report Generation".</p>
