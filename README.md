@@ -21,3 +21,21 @@ pip install -r requirements.txt
 
 <h3>Data Preparation and preprocessing</h3>
 
+
+<h3>Training</h3>
+
+```python
+python train.py --network MambaVision-L-1K --train_batchsize 64
+```
+
+<h3>Test</h3>
+
+```Python
+python test.py --network MambaVision-L-1K --checkpoint ./models_ckpt/transformer_decoderlayers12024-11-08-16-40-56_1627_all/Dog-X-ray_bts_8_MambaVision-L-1K_epo_29_Bleu4_25245_test.pth
+```
+
+
+<h2>Experiments</h2>
+
+
+
