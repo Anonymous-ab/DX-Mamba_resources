@@ -21,6 +21,24 @@ pip install -r requirements.txt
 
 <h3>Data Preparation and preprocessing</h3>
 
+<p>We propose a large-scale Dog-Xray dataset that contains 13,794 dog thoracic studies and 36,264 corresponding X-ray images. The data source is still in privacy. For more information, please contact...</p>
+
+```python
+├─/root/Data/Dog-Xray/
+        ├─captions.json
+        ├─captions
+             ├─Train.csv
+             ├─Valid.csv
+             ├─Test.csv
+        ├─images
+             ├─Train
+             ├─Valid
+             ├─Test
+```
+
+```python
+Data_preprocess.py 
+```
 
 <h3>Training</h3>
 
