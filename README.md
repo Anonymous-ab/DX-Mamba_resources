@@ -12,8 +12,11 @@
 <h3>Code implementation</h3>
 
 ```python
-git clone https://github.com/Chen-Yang-Liu/RSCaMa.git
-cd RSCaMa
-conda create -n RSCaMa_env python=3.9
-conda activate RSCaMa_env
+git clone https://github.com/Anonymous-ab/DX-Mamba_resources
+cd DXMamba
+conda create -n DXMamba_env python=3.9
+conda activate DXMamba_env
 pip install -r requirements.txt
+
+<h3>Data Preparation and preprocessing</h3>
+
