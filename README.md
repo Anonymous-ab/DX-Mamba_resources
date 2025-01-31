@@ -2,7 +2,7 @@
 <p align="center">
   <img src="Figures/DX-Mamba.png" width="800" alt="Workflow of the proposed DX-Mamba model">
 </p>
-<p align="center">Workflow of the proposed DX-Mamba model</p>
+
 
 
 <h2>Repository for codes of the DX-Mamba paper</h2>
@@ -36,6 +36,11 @@ python test.py --network MambaVision-L-1K --checkpoint ./models_ckpt/transformer
 
 
 <h2>Experiments</h2>
+
+<p align="center">
+  <img src="Figures/Dog-Xray compare.png" alt=" Table 1: Results comparisons of different methods on the Dog-Xray dataset.">
+</p>
+<p align="center">Table 1: Results comparisons of different methods on the Dog-Xray dataset.</p>
 
 
 
