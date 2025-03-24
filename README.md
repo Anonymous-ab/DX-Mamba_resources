@@ -66,10 +66,7 @@ python test.py --network MambaVision-L-1K --checkpoint ./models_ckpt/transformer
 <p align="center">Table 1: Results comparisons of different methods on the Dog-Xray dataset.</p>
 
 
-<p align="center">
-  <img src="Figures/Other datasets.png" alt=" Table 2: Results comparisons of different methods on the IU-Xray and MIMIC-CXR datasets.">
-</p>
-<p align="center">Table 2: Results comparisons of different methods on the IU-Xray and MIMIC-CXR datasets.</p>
+
 
 
 <h3>Prediction sample comparisons</h3>
