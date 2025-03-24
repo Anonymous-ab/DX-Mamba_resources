@@ -11,7 +11,7 @@ import numpy as np
 class Encoder(nn.Module):
     """
     Encoder.
-    """
+    """ 
     def __init__(self, network):
         super(Encoder, self).__init__()
         self.network = network
