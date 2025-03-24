@@ -13,7 +13,7 @@ from data.HLC.Cap_dataloader import Caption_Dataset
 from model.model_encoder_Triple_Att_Mamba import Encoder, AttentiveEncoder
 from model.model_decoder import DecoderTransformer
 from utils_tool.utils import *
-import torch
+import torch 
 
 ## Running code example
 # python train.py --network MambaVision-L-1K --train_batchsize 32
