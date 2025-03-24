@@ -10,7 +10,7 @@ class AlignmentLayer(nn.Module):
 
     def forward(self, image_features, text_indices):
         # Step 1: Use the embedding layer for text features
-        text_embeddings = self.embedding_layer(text_indices)  # Shape: (2, 240, 768)
+        text_embeddings = self.embedding_layer(text_indices)  # Shape: (2, 240, 768) 
 
         # Step 2: Apply Adaptive Average Pooling to reduce to [2, 49, 768]
         pooled_text_features = self.pool(text_embeddings.permute(0, 2, 1))  # Shape: (2, 768, 240)
