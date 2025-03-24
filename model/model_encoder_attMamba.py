@@ -15,7 +15,7 @@ class Encoder(nn.Module):
         self.network = network
         if self.network=='alexnet': #256,7,7
             cnn = models.alexnet(pretrained=True)
-            modules = list(cnn.children())[:-2]
+            modules = list(cnn.children())[:-2] 
         elif self.network=='vgg19':#512,1/32H,1/32W
             cnn = models.vgg19(pretrained=True)  
             modules = list(cnn.children())[:-2]
