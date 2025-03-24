@@ -4,7 +4,7 @@ import math
 from torch.nn.init import xavier_uniform_
 import copy
 from torch import Tensor
-from typing import Optional
+from typing import Optional 
 
 from torch.nn import functional as F
 from transformers import MambaConfig, MambaModel, GPT2Config, GPT2Model
