@@ -8,7 +8,7 @@ import json
 from tqdm import tqdm
 # from data.LEVIR_CC.LEVIRCC import LEVIRCCDataset
 # from data.HLC.Caption_dataloader import Caption_Dataset
-# from model.model_encoder_attMamba import Encoder, AttentiveEncoder
+# from model.model_encoder_attMamba import Encoder, AttentiveEncoder 
 from data.HLC.Cap_dataloader import Caption_Dataset
 from model.model_encoder_Triple_Att_Mamba import Encoder, AttentiveEncoder
 from model.model_decoder import DecoderTransformer
