@@ -6,7 +6,7 @@ from torch import nn
 # FIXME
 from transformers.models.mamba.modeling_mamba import logger, is_fast_path_available, mamba_inner_fn, causal_conv1d_fn, causal_conv1d_update, selective_state_update, selective_scan_fn
 from transformers.models.mamba.modeling_mamba import MambaRMSNorm, MambaPreTrainedModel, MambaCache, MambaOutput, MambaMixer
-from transformers import MambaConfig
+from transformers import MambaConfig 
 from transformers.activations import ACT2FN
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
