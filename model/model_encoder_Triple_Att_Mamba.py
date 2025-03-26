@@ -344,7 +344,7 @@ class AttentiveEncoder(nn.Module):
         img_list = []
         N, L, D = img_sa1.shape
         for i in range(self.n_layers):
-            # # SD-SSM:
+            # 
             # dif = img_sa2 + img_sa1
             # img_sa1 = self.CaMalayer_list[i][0](inputs_embeds=img_sa1, inputs_embeds_2=dif).last_hidden_state
             # img_sa2 = self.CaMalayer_list[i][1](inputs_embeds=img_sa2, inputs_embeds_2=dif).last_hidden_state
@@ -367,9 +367,9 @@ class AttentiveEncoder(nn.Module):
             img_sa2 = self.CaMalayer_list[i][1](inputs_embeds=img_sa2, inputs_embeds_2=aligned2+aligned2+aligned3).last_hidden_state
             img_sa3 = self.CaMalayer_list[i][1](inputs_embeds=img_sa3, inputs_embeds_2=aligned3+aligned2+aligned3).last_hidden_state
 
-            # TT-SSM:
-            scan_mode = 'TT-SSM'
-            if scan_mode == 'TT-SSM':
+            # FF-SSM:
+            scan_mode = 'FF-SSM'
+            if scan_mode == 'FF-SSM':
                 img_sa1 = self.LN_norm(img_sa1)#
                 img_sa2 = self.LN_norm(img_sa2)#
                 img_sa3 = self.LN_norm(img_sa3)#
@@ -388,7 +388,7 @@ class AttentiveEncoder(nn.Module):
 
 
                 img_fuse = img_fuse.reshape(N, D, L, -1)
-
+                # FD-SSM:
                 img_sa1 = img_fuse[..., 0].permute(0, 2, 1)#[...,:D] # (N,L,D)
                 img_sa2 = img_fuse[..., 1].permute(0, 2, 1)#[...,:D]
                 img_sa3 = img_fuse[..., 2].permute(0, 2, 1)#[...,:D] # (N,L,D)
