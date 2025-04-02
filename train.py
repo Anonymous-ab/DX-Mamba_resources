@@ -421,12 +421,12 @@ class Trainer(object):
             torch.save(state, os.path.join(self.args.savepath, model_name.replace('/','-')))
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Remote_Sensing_Image_Changes_to_Captions')
+    parser = argparse.ArgumentParser(description='Dog X-ray report generation')
 
     # Data parameters
     parser.add_argument('--sys', default='win', choices=('linux'), help='system')
-    parser.add_argument('--data_folder', default='/scratch/YoushanZhang/Dog_report/Report_generation',help='folder with data files') # '/scratch/YoushanZhang/Human_lung/Images' for HLC
-    parser.add_argument('--caption_path', default='/scratch/YoushanZhang/Dog_report/Report_generation/', help='path of the data lists') # '/scratch/YoushanZhang/Human_lung/' for HLC
+    parser.add_argument('--data_folder', default='/Dog_report/Report_generation',help='folder with data files') # '/Human_lung/Images' for HLC
+    parser.add_argument('--caption_path', default='/Dog_report/Report_generation/', help='path of the data lists') # 'Human_lung/' for HLC
     parser.add_argument('--token_folder', default='./data/Dog-X-ray/', help='folder with token files') # './data/HLC/' for HLC
     parser.add_argument('--vocab_file', default='vocab', help='path of the data lists')
     parser.add_argument('--max_length', type=int, default=950, help='path of the data lists') # 270 for HLC
