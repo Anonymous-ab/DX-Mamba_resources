@@ -10,7 +10,7 @@ from scipy.io import savemat
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--dataset', type = str, default = 'Dog-X-ray', help= 'the name of the dataset') # HLC for human lung dataset
-parser.add_argument('--input_captions_path', type = str, default = '/scratch/YoushanZhang/Dog_report/Report_generation', help = 'input captions json file') # '/scratch/YoushanZhang/Human_lung' for HLC
+parser.add_argument('--input_captions_path', type = str, default = '/Dog_report/Report_generation', help = 'input captions json file') # '/Human_lung' for HLC
 parser.add_argument('--save_dir', type = str, default = './data/Dog-X-ray/')
 parser.add_argument('--word_count_threshold', default=5, type=int)
 
