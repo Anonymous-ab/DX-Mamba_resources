@@ -61,12 +61,15 @@ python test.py --network MambaVision-L-1K --checkpoint ./models_ckpt/transformer
 <h3>Result tables</h3>
 
 <p align="center">
-  <img src="Figures/Dog-Xray compare.png" alt=" Table 1: Results comparisons of different methods on the Dog-Xray dataset.">
+  <img src="Figures/validation table.png" alt=" Table 1: Results comparisons of different methods on the Dog-Xray validation dataset.">
 </p>
-<p align="center">Table 1: Results comparisons of different methods on the Dog-Xray dataset.</p>
+<p align="center">Table 1: Results comparisons of different methods on the Dog-Xray validation dataset.</p>
 
 
-
+<p align="center">
+  <img src="Figures/test table.png" alt=" Table 2: Results comparisons of different methods on the Dog-Xray test dataset.">
+</p>
+<p align="center">Table 2: Results comparisons of different methods on the Dog-Xray test dataset.</p>
 
 
 <h3>Prediction sample comparisons</h3>
